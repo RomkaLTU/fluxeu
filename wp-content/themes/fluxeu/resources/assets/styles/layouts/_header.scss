@@ -1,7 +1,27 @@
-.banner .nav li {
-  @extend .nav-item;
-}
+.header {
+    height: 863px;
 
-.banner .nav a {
-  @extend .nav-link;
+    &-left-inner,
+    &-right-inner {
+        position: relative;
+        width: 100%;
+        max-width: 602px;
+        height: 100%;
+        max-height: 795px;
+    }
+
+    &-left {
+        background-color: #1f2537;
+        &-inner {
+            box-shadow: 0 0 98px rgba(1, 2, 2, 0.17);
+        }
+    }
+
+    &-right {
+        background-image: url("./images/header-right-bg.png");
+        background-size: cover;
+        &-inner {
+            box-shadow: 0 0 98px rgba(1, 2, 2, 0.17);
+        }
+    }
 }

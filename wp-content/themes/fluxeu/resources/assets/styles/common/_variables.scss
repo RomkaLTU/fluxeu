@@ -5,6 +5,30 @@ $theme-colors: (
   primary: #525ddc
 );
 
+$font-family-sans-serif:      'Montserrat', sans-serif;
+$font-family-base:            $font-family-sans-serif;
+$font-size-base:              1.125rem;
+
+$h1-font-size:                $font-size-base * 2.6;
+$h2-font-size:                $font-size-base * 2.5;
+$h3-font-size:                $font-size-base * 1.27;
+$h4-font-size:                $font-size-base * 1;
+
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px
+);
+
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1200px
+);
+
 /** Bootstrap navbar fix (https://git.io/fADqW) */
 $navbar-dark-toggler-icon-bg: none;
 $navbar-light-toggler-icon-bg: none;
