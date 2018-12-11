@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "f72aa254fc6ae6df14c7"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "114f11595615a3aabe1a"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -722,7 +722,7 @@
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return hotCreateRequire(32)(__webpack_require__.s = 32);
+/******/ 	return hotCreateRequire(34)(__webpack_require__.s = 34);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -2349,7 +2349,9 @@ module.exports = function(hash, moduleMap, options) {
 /* 29 */,
 /* 30 */,
 /* 31 */,
-/* 32 */
+/* 32 */,
+/* 33 */,
+/* 34 */
 /*!***************************************************************************!*\
   !*** multi ./build/util/../helpers/hmr-client.js ./scripts/customizer.js ***!
   \***************************************************************************/
@@ -2358,11 +2360,11 @@ module.exports = function(hash, moduleMap, options) {
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! /Users/rd/Projects/Valet/fluxeu/wp-content/themes/fluxeu/resources/assets/build/util/../helpers/hmr-client.js */2);
-module.exports = __webpack_require__(/*! ./scripts/customizer.js */33);
+module.exports = __webpack_require__(/*! ./scripts/customizer.js */35);
 
 
 /***/ }),
-/* 33 */
+/* 35 */
 /*!*******************************!*\
   !*** ./scripts/customizer.js ***!
   \*******************************/

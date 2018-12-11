@@ -3,7 +3,7 @@
 
     &-left-inner,
     &-right-inner {
-        position: relative;
+        position: absolute;
         width: 100%;
         max-width: 602px;
         height: 100%;
@@ -13,6 +13,8 @@
     &-left {
         background-color: #1f2537;
         &-inner {
+            bottom: 0;
+            right: 0;
             box-shadow: 0 0 98px rgba(1, 2, 2, 0.17);
         }
     }
@@ -21,6 +23,8 @@
         background-image: url("./images/header-right-bg.png");
         background-size: cover;
         &-inner {
+            bottom: 0;
+            left: 0;
             box-shadow: 0 0 98px rgba(1, 2, 2, 0.17);
         }
     }
