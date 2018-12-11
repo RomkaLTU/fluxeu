@@ -1,4 +1,6 @@
 .section {
+    margin-bottom: 50px;
+
     h3 {
         font-size: 23px;
         text-transform: uppercase;
@@ -6,11 +8,58 @@
         font-weight: 700;
         margin-bottom: 20px;
     }
-    
+
+    // Section about
     &-about {
         .row {
             height: 630px;
             align-items: center;
+        }
+    }
+
+    // Section offers
+    &-offers {
+        .offer {
+            background-color: #ffffff;
+            box-shadow: 0 0 98px rgba(1, 2, 2, 0.17);
+            margin-bottom: 42px;
+            padding: 40px 50px;
+
+            small {
+                display: block;
+                margin-bottom: 12px;
+            }
+
+            &-data {
+                color: $blue-dark;
+            }
+        }
+
+        h4 {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+
+        .btn-prenumeruoti {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 250px;
+            height: 51px;
+            text-decoration: none;
+            font-weight: 700;
+            color: #fff;
+            border-radius: 0;
+            background-image: url("./images/button_bg.png");
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        figure {
+            margin: 0;
         }
     }
 }
