@@ -11,9 +11,7 @@
                     <img src="@asset('images/logo.png')" alt="{{ get_bloginfo('name', 'display') }}">
                 </a>
                 <div class="header-content-hero">
-                    <h1>DARBAS OLANDIJOJE</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit. Donec mattis nibh placerat, ornare lacus at, venenatis sapien.</p>
+                    {!! get_field('main_site_title') !!}
                 </div>
             </div>
         </div>
