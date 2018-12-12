@@ -7,6 +7,16 @@
         color: #427dcb;
         font-weight: 700;
         margin-bottom: 20px;
+
+        @include media-breakpoint-down(md) {
+            font-size: 20px;
+        }
+    }
+
+    p {
+        @include media-breakpoint-down(md) {
+            font-size: 16px;
+        }
     }
 
     // Section about
@@ -21,9 +31,15 @@
     &-offers {
         .offer {
             background-color: #ffffff;
-            box-shadow: 0 0 98px rgba(1, 2, 2, 0.17);
+            border-top: 1px solid #ccc;
             margin-bottom: 42px;
-            padding: 40px 50px;
+            padding: 32px 18px 0;
+
+            @include media-breakpoint-up(lg) {
+                border-top: 0;
+                box-shadow: 0 0 98px rgba(1, 2, 2, 0.17);
+                padding: 40px 50px;
+            }
 
             small {
                 display: block;
@@ -39,12 +55,13 @@
             font-size: 20px;
             font-weight: 700;
             margin-bottom: 30px;
+
+            @include media-breakpoint-down(md) {
+                margin-top: 1rem;
+            }
         }
 
         .btn-prenumeruoti {
-            position: absolute;
-            bottom: 0;
-            right: 0;
             width: 250px;
             height: 51px;
             text-decoration: none;
@@ -56,10 +73,24 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            margin-top: 2rem;
+
+            @include media-breakpoint-up(lg) {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                margin-top: 0;
+            }
         }
 
         figure {
             margin: 0;
+
+            img {
+                @include media-breakpoint-down(md) {
+                    width: 100%;
+                }
+            }
         }
     }
 
@@ -69,6 +100,11 @@
         padding-top: 130px;
         padding-bottom: 100px;
 
+        @include media-breakpoint-down(md) {
+            padding-top: 36px;
+            padding-bottom: 36px;
+        }
+
         h2 {
             background-image: linear-gradient(to right, #4252cb 0%, #428dcb 100%);
             font-size: 48px;
@@ -77,6 +113,10 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             text-align: center;
+
+            @include media-breakpoint-down(md) {
+                font-size: 1.7rem;
+            }
         }
 
         h5 {
@@ -84,6 +124,10 @@
             text-align: center;
             font-weight: 300;
             margin-bottom: 130px;
+
+            @include media-breakpoint-down(md) {
+                margin-bottom: 3rem;
+            }
         }
 
         a {
@@ -123,6 +167,10 @@
             font-size: 20px;
             font-weight: 300;
             margin-bottom: 0.5rem;
+
+            @include media-breakpoint-down(md) {
+                font-size: 16px;
+            }
         }
     }
 
