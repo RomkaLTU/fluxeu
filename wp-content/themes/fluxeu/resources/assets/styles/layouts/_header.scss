@@ -53,7 +53,7 @@
     }
 
     &-right {
-        background-image: url("./images/header-right-bg.png");
+        background-image: url("../images/header-right-bg.png");
         background-size: cover;
 
         @include media-breakpoint-down(md) {
@@ -64,7 +64,7 @@
             bottom: 0;
             left: 0;
             box-shadow: 0 0 98px rgba(1, 2, 2, 0.17);
-            background-image: url("./images/header_photo.png");
+            background-image: url("../images/header_photo.png");
         }
     }
 
