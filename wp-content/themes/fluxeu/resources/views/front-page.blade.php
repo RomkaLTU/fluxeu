@@ -64,7 +64,7 @@
         </div>
     </div>
 
-    <div class="section section-contacts">
+    <div class="section section-contacts mb-0">
         <div class="container">
             <h2>IEŠKOTE KITOKIO POBŪDŽIO DARBO?</h2>
             <h5>Atsiųskite mums savo CV elektroniniu paštu info@flux.eu ir mes su jumis susisieksime.</h5>
