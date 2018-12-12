@@ -63,4 +63,24 @@
             </div>
         </div>
     </div>
+
+    <div class="section section-contacts">
+        <div class="container">
+            <h2>IEŠKOTE KITOKIO POBŪDŽIO DARBO?</h2>
+            <h5>Atsiųskite mums savo CV elektroniniu paštu info@flux.eu ir mes su jumis susisieksime.</h5>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3>KONTAKTAI</h3>
+                    <strong>EL. PAŠTAS</strong> <a href="mailto:info@fluxeu.lt">info@fluxeu.lt</a><br>
+                    <strong>TEL. NR.</strong> <a href="tel:+37064022822">+370 640 22822</a>
+
+                    <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="col-lg-6">
+                    {!! do_shortcode('[wpforms id="13" title="false" description="false"]') !!}
+                </div>
+            </div>
+        </div>
+    </div>
 @stop
